@@ -93,7 +93,7 @@ function Bot() {
             />
             <button
              onClick={handleSendMessage}
-              className="bg-green-600 hover:bg-green-700 px-4 py-1 rounded-full text-white font-medium transition-colors"
+              className="bg-green-600 hover:bg-green-800 px-4 py-1 rounded-full text-white font-medium transition-colors"
             >
               Send
             </button>
