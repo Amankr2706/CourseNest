@@ -74,41 +74,31 @@ Before running the project, make sure you have:
 - ✅Node.js & npm installed on your system
 - ✅MongoDB installed locally or use MongoDB Atlas
 - ✅API keys:
-- **Google Generative AI (Gemini)** – [Google AI Studio](https://aistudio.google.com/)
-- **YouTube Data API v3** – [Google Cloud Console](https://console.cloud.google.com/)
+  **Google Generative AI (Gemini)** – [Google AI Studio](https://aistudio.google.com/)
+  **YouTube Data API v3** – [Google Cloud Console](https://console.cloud.google.com/)
 
-**Frontend Setup**
-# Open a new terminal and navigate to frontend folder
+### **Frontend Setup**
+**Open a new terminal and navigate to frontend folder**
 cd client
 
-# Install dependencies
+**Install dependencies**
 npm install
 
-# Create a .env.local file in the client directory with:
-# VITE_API_BASE_URL=http://localhost:5000
-
-# Start the development server
-npm run dev
+**Create a .env.local file in the client directory with** :
 ```env
 VITE_API_BASE_URL=http://localhost:5000
 ```
+**Start the development server**
+npm run dev
 
-**Backend Setup**
-# Navigate to backend folder
+### **Backend Setup**
+**Navigate to backend folder**
 cd server
 
-# Install dependencies
+**Install dependencies**
 npm install
 
-# Create a .env file in the server directory with the following variables:
-# PORT=5000
-# MONGO_URI=your_mongodb_connection_string
-# JWT_SECRET=your_jwt_secret_key
-# GEMINI_API_KEY=your_google_gemini_api_key
-# YOUTUBE_API_KEY=your_youtube_data_api_v3_key
-
-# Start the backend server
-npm start
+**Create a .env file in the server directory with the following variables** :
 ```env
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/
@@ -116,6 +106,8 @@ JWT_SECRET=your_secret_key_here
 GEMINI_API_KEY=your_gemini_api_key
 YOUTUBE_API_KEY=your_youtube_api_key
 ```
+**Start the backend server**
+npm start
 
 
 
