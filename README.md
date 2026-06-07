@@ -79,24 +79,24 @@ Before running the project, make sure you have:
 
 ### **Frontend Setup**
 - **Open a new terminal and navigate to frontend folder**
-  'cd client'
+  `cd client`
 
 - **Install dependencies**
-  'npm install'
+  `npm install`
 
 - **Create a .env.local file in the client directory with** :
   ```env
   VITE_API_BASE_URL=http://localhost:5000
   ```
 - **Start the development server**
-  'npm run dev'
+  `npm run dev`
 
 ### **Backend Setup**
 - **Navigate to backend folder**
-  'cd server'
+  `cd server`
 
 - **Install dependencies**
-  'npm install'
+  `npm install`
 
 - **Create a .env file in the server directory with the following variables** :
   ```env
@@ -107,7 +107,7 @@ Before running the project, make sure you have:
   YOUTUBE_API_KEY=your_youtube_api_key
   ```
 - **Start the backend server** 
-  'npm start'
+  `npm start`
 
 
 
