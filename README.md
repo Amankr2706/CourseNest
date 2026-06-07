@@ -82,25 +82,20 @@ Before running the project, make sure you have:
   **YouTube Data API v3** – [Google Cloud Console](https://console.cloud.google.com/)
 
 ### **Frontend Setup**
-- **Open a new terminal and navigate to frontend folder**
-  `cd client`
+- **Open a new terminal and navigate to frontend folder** `cd client`
 
-- **Install dependencies**
-  `npm install`
+- **Install dependencies** `npm install`
 
 - **Create a .env.local file in the client directory with** :
   ```env
   VITE_API_BASE_URL=http://localhost:5000
   ```
-- **Start the development server**
-  `npm run dev`
+- **Start the development server** `npm run dev`
 
 ### **Backend Setup**
-- **Navigate to backend folder**
-  `cd server`
+- **Navigate to backend folder** `cd server`
 
-- **Install dependencies**
-  `npm install`
+- **Install dependencies** `npm install`
 
 - **Create a .env file in the server directory with the following variables** :
   ```env
@@ -110,8 +105,7 @@ Before running the project, make sure you have:
   GEMINI_API_KEY=your_gemini_api_key
   YOUTUBE_API_KEY=your_youtube_api_key
   ```
-- **Start the backend server** 
-  `npm start`
+- **Start the backend server** `npm start`
 
 
 
