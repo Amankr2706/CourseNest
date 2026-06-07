@@ -71,9 +71,9 @@ A full‑stack MERN application that uses AI to automatically generate comprehen
 
 Before running the project, make sure you have:  
 
-- ✅Node.js & npm installed on your system
-- ✅MongoDB installed locally or use MongoDB Atlas
-- ✅API keys:
+✅Node.js & npm installed on your system
+✅MongoDB installed locally or use MongoDB Atlas
+✅API keys:
   **Google Generative AI (Gemini)** – [Google AI Studio](https://aistudio.google.com/)
   **YouTube Data API v3** – [Google Cloud Console](https://console.cloud.google.com/)
 
