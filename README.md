@@ -77,7 +77,8 @@ Before running the project, make sure you have:
 
 ✅API keys:  
 
-  **Google Generative AI (Gemini)** – [Google AI Studio](https://aistudio.google.com/)
+  **Google Generative AI (Gemini)** – [Google AI Studio](https://aistudio.google.com/)  
+  
   **YouTube Data API v3** – [Google Cloud Console](https://console.cloud.google.com/)
 
 ### **Frontend Setup**
