@@ -9,7 +9,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="h-screen w-64 bg-indigo-950 text-white fixed left-0 top-0">
+    <div className="h-screen w-64 bg-indigo-900 text-white fixed left-0 top-0">
       <div className="p-4">
         <h2 className="text-2xl font-bold mb-8">📚CourseNest</h2>
         <nav className="space-y-4">
