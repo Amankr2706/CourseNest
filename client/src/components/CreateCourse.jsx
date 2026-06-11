@@ -227,7 +227,7 @@ const CreateCourse = () => {
             className={`w-full py-3 px-6 rounded-lg text-white font-medium transition duration-200 ${
               loading 
                 ? 'bg-gray-400 cursor-not-allowed' 
-                : 'bg-indigo-700 hover:bg-indigo-700 hover:shadow-lg'
+                : 'bg-indigo-600 hover:bg-indigo-700 hover:shadow-lg'
             }`}
           >
             {loading ? (
